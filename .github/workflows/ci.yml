@@ -20,3 +20,7 @@ jobs:
 
       - name: Build de l'image Docker
         run: echo   "$salut= {{vars.STEP2}}"
+        
+      - name: Lister les fichiers
+        run: echo   "$salut= {{secret.janet}}"
+        
